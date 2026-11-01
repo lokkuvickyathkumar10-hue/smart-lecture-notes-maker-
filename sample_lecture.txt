@@ -1,0 +1,21 @@
+INTRODUCTION TO DATA STRUCTURES
+
+A data structure is a way of organizing and storing data so that it can be accessed and modified efficiently. Data structures are important because they help programs manage large amounts of information.
+
+Types of Data Structures
+Data structures are commonly classified into linear and non-linear data structures. In a linear data structure, elements are arranged sequentially. Examples include arrays, linked lists, stacks and queues. In a non-linear data structure, elements are connected in a hierarchical or network form. Examples include trees and graphs.
+
+Arrays
+An array is a collection of elements of the same data type stored in contiguous memory locations. Array elements are accessed using an index. The main advantage of an array is fast access by index. A limitation is that its size is generally fixed after creation in many basic implementations.
+
+Linked Lists
+A linked list is a sequence of nodes where each node contains data and a reference to the next node. Linked lists can grow or shrink dynamically. Insertion and deletion can be efficient when the required node position is already known, but accessing an element requires traversal.
+
+Stacks and Queues
+A stack follows the Last In, First Out (LIFO) principle. The main operations are push, which inserts an item, and pop, which removes the top item. A queue follows the First In, First Out (FIFO) principle. Its common operations are enqueue and dequeue.
+
+Trees and Graphs
+A tree is a hierarchical data structure made of nodes connected by edges. The top node is called the root. A graph consists of vertices and edges and can represent relationships such as roads or social networks.
+
+Choosing a Data Structure
+The choice of data structure depends on the operations a program performs. Consider access speed, insertion, deletion, memory usage and the size of the data. Therefore, understanding the strengths and limitations of each structure helps programmers design efficient solutions.
